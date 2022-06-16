@@ -1,0 +1,98 @@
+.main{
+    
+    overflow-y: auto;
+    background-image: url('tempt.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 15px;
+    background-image: -o-linear-gradient(( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('b.jpg'));
+
+}
+header{
+    background-color: gray;
+    padding-top:0% ;
+    width: 100%;
+}
+
+
+
+
+
+.A{
+    float: left;
+    background-color: rgb(44, 44, 44);
+    overflow:auto;
+    width:100%;
+    position: sticky;
+    top: 0%;
+
+}
+
+.seperate{
+  float: right;
+}
+
+
+.A a {
+    float: left;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .A a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  
+  .A a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .topic{
+    font-size: 120px;
+    color: white;
+    
+  }
+
+  .para{
+    font-size: 30px;
+    color: white;
+    max-width: 100%;
+    min-width: none;
+  }
+
+  
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgb(44, 44, 44);
+    color: white;
+    border-top: 2cm;
+  }
+
+
+
+
+  
