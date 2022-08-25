@@ -1,0 +1,128 @@
+.main{
+    
+    overflow-y: auto;
+    background-image: url('imgs/BCS2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 15px;
+    background-image: -o-linear-gradient(( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('b.jpg'));
+
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background:  linear-gradient(to right, rgb(105, 243, 227) ,rgb(0, 78, 117));
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  
+}
+      
+.A{
+  float: left;
+  background-color: rgb(4, 155, 255);
+  background-image:linear-gradient(to right, rgb(105, 243, 227) ,rgb(0, 78, 117));
+  overflow:auto;
+  width:100%;
+  position: sticky;
+  
+}
+
+.seperate{
+  float: right;
+}
+
+.seperate option{
+  font-size: 18px;
+  background-color: rgb(0, 0, 0);
+}
+
+
+.A a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+  
+.A a:hover {
+  background-color: rgb(42, 23, 148);
+  color: rgb(255, 255, 255);
+}
+  
+  
+  
+.A a.active {
+  background-color: #747474;
+  color: rgb(194, 194, 194);
+}
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color:transparent;
+    border: 1px solid transparent;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .topic{
+    font-size: 120px;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    text-align: center;
+
+
+    
+  }
+
+  .head{
+    font-size: 40px;
+    color: black;
+  }
+  .paragraph{
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+
+  .para{
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+.list{
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+    text-align: left;
+}
+
+  
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgb(107, 107, 245);
+    color: white;
+    border-top: 2cm;
+  }

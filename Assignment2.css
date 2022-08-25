@@ -1,0 +1,233 @@
+.main{
+    
+    overflow-y: auto;
+    background-image: url('imgs/forests.jpg');
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 15px;
+    
+
+}
+
+
+header {
+  padding: 60px;
+  text-align: center;
+  background:  linear-gradient(to right, rgb(52, 75, 50) ,rgb(35, 193, 82));
+  color: rgb(164, 164, 164);
+  font-size: 30px;
+  
+}
+      
+.A{
+  float: left;
+  background-color: rgb(4, 155, 255);
+  background-image: linear-gradient(to right, rgb(52, 75, 50) ,rgb(35, 193, 82));
+  overflow:auto;
+  width:100%;
+  position: sticky;
+  
+}
+
+.seperate{
+  float: right;
+}
+
+.seperate option{
+  font-size: 18px;
+  background-color: rgb(171, 171, 171);
+}
+
+
+.A a {
+  float: left;
+  color: rgb(204, 204, 204);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+  
+.A a:hover {
+  background-color: #ddd;
+  color: rgb(6, 37, 14);
+}
+  
+  
+  
+.A a.active {
+  background-color: #ffffff;
+  color: rgb(194, 194, 194);
+}
+
+#language{
+  float: right;
+}
+
+
+  
+  .content {
+    padding: 16px;
+  }
+  
+ 
+  .sticky {
+    position:relative;
+    top: 10%;
+    width:auto;
+    
+  }
+
+  .sticky + .content {
+    padding-top: -50px;
+  }
+
+  .Topic{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 100px;
+      text-align: center;
+      background-color: transparent;
+      color: white;
+      font-family: cursive;
+  }
+
+  .intr{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+
+  }
+
+  table{
+    max-width: 100%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+table, th, td {
+    overflow: auto;
+    border:1px solid black;
+  }
+
+
+
+  
+  .intro{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+  
+    
+  }
+
+  .intropara{
+    text-align: justify;
+    font-size: 20px;
+    color: aliceblue;
+   
+
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 200px 100px 100px;
+    gap: 10px;
+    background-color:transparent;
+    padding: 10px;
+    
+  }
+
+  
+  .item2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: aliceblue;
+    
+  }
+
+  .item3{
+    font-size: 25px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    min-width: none;
+    background-color: rgb(0, 0, 0, 0.5);
+  
+  }
+
+
+  .item4{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0, 0.5);
+    
+  }
+
+  .item5{
+    font-size: 25px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+
+  .link{
+    font-size: 20px;
+    color: blue;
+    font-display: bold;
+    text-align: right;
+  }
+
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:383px;
+    width:426px;
+  }
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:383px;width:426px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgb(24, 137, 67);
+    color: white;
+    border-top: 2cm;
+  }
+
+  @media screen and (max-width:1000px){
+    .table{
+      min-width: auto;
+      grid-column: 1/4;
+      grid-row: 1/3;
+
+    }
+
+
+  }
+
+  @media screen and (max-width:1000px){
+    .imge{
+      min-width: auto;
+
+    }
+
+
+  }
+ 

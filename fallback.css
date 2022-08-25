@@ -1,0 +1,16 @@
+.main{
+    overflow-y: auto;
+    background-image: url('imgs/image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.err{
+    color: red; 
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(133, 120, 120, 0.5);
+}
+
+

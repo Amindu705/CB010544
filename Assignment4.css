@@ -1,0 +1,225 @@
+.main{
+    
+    overflow-y: auto;
+    background-image: url('imgs/image.jpg');
+    background-color: rgb(200, 211, 115);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 15px;
+
+}
+
+
+header {
+  padding: 60px;
+  text-align: center;
+  background:  linear-gradient(to right, rgb(0, 0, 0) ,rgb(47, 99, 83));
+  color: rgb(164, 164, 164);
+  font-size: 30px;
+  
+}
+      
+.A{
+  float: left;
+  background-color: rgb(4, 155, 255);
+  background-image: linear-gradient(to right, rgb(0, 0, 0) ,rgb(47, 99, 83));
+  overflow:auto;
+  width:100%;
+  position: sticky;
+  
+}
+
+.seperate{
+  float: right;
+}
+
+.seperate option{
+  font-size: 18px;
+  background-color: rgb(171, 171, 171);
+}
+
+
+.A a {
+  float: left;
+  color: rgb(204, 204, 204);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+  
+.A a:hover {
+  background-color: #ddd;
+  color: rgb(6, 37, 14);
+}
+  
+  
+  
+.A a.active {
+  background-color: #ffffff;
+  color: rgb(194, 194, 194);
+}
+
+.tour{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(251, 255, 255);
+    text-align: center;
+  
+  
+   }
+
+    .intropara{
+        font-size: 45px;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+  
+  #para{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+
+  #para_2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+
+  .topic{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+  
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 200px 100px 100px;
+    gap: 10px;
+    background-color:transparent;
+    padding: 10px;
+    
+  }
+
+  
+  .item2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: aliceblue;
+    
+  }
+
+  .item3{
+    font-size: 25px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+  
+  }
+
+  .item4{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: aliceblue;
+    
+  }
+
+  .item5{
+    font-size: 25px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+
+  .para2{
+    font-size: 40px;
+    padding: 30px;
+    color: #ffffff;
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  
+  .form{
+      background-color: rgba(118, 161, 128, 0.5);
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 30px;  
+  }
+
+  .form_2{
+    background-color: rgba(118, 161, 128, 0.5);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;  
+}
+
+  #ticket{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    height: 20px;
+    
+  }
+  
+  .table{
+      background-color: rgba(157, 212, 212, 0.788);
+      font-size: 20px;
+      color: black;
+      border-radius: 15px;
+      border: 20px;
+      align-self: center;
+      border-spacing: 10px;
+      padding: 10px;
+
+  
+  }
+  
+  .theader{
+      font-size: 65px;
+      color:rgb(255, 255, 255);
+  }
+  
+  button{
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      background-color:rgba(118, 161, 128, 0.5);
+      padding: 20px;
+      align-self: center;
+      border-radius: 35px;
+      border: rgb(0, 0, 0) 15px;
+  }
+  
+  button:hover{
+      color: #ddd;
+      background-color: rgb(42, 57, 49);
+  }
+
+
+
+
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(47, 99, 83);
+    color: bisque;
+    border-top: 2cm;
+  }
+
+  .link{
+    color: antiquewhite;
+  }

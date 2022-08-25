@@ -1,0 +1,160 @@
+.main{
+    
+    overflow-y: auto;
+    background-image: url('imgs/yakawall.jpg');
+    color: rgb(202, 118, 118);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 15px;
+    
+
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background:  linear-gradient(to right, rgb(195, 160, 160) ,rgb(198, 50, 50));
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  
+}
+      
+.A{
+  float: left;
+  background-color: rgb(4, 155, 255);
+  background-image: linear-gradient(to right, rgb(195, 160, 160) ,rgb(198, 50, 50));
+  overflow:auto;
+  width:100%;
+  position: sticky;
+  
+}
+
+.seperate{
+  float: right;
+}
+
+.seperate option{
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.A a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+  
+.A a:hover {
+  background-color: rgb(107, 0, 0);
+  color: rgb(255, 255, 255);
+}
+  
+  
+  
+.A a.active {
+  background-color: #747474;
+  color: rgb(194, 194, 194);
+}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .topic{
+    font-size: 90px;
+    color: rgb(210, 0, 0);
+    background-color: rgba(219, 219, 219, 0.5);
+    text-align: center;
+    font-family: cursive;
+
+    
+  }
+
+
+
+  .head{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  }
+
+  .para{
+    font-size: 30px;
+    color: black;
+    background-color: rgba(219, 219, 219, 0.5);
+  }
+
+
+
+table{
+    max-width: 100%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+table, th, td {
+    overflow: auto;
+    border:1px solid black;
+  }
+ 
+  .red{
+    color: rgb(0, 0, 0);
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  .form{
+
+    background-color: rgba(114, 99, 99, 0.241);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;  
+    font-weight: bolder;  
+    color: black;
+}
+
+button{
+  color: rgb(217, 215, 215);
+  font-size: 20px;
+  background-color:rgba(0, 0, 0, 0.252);
+  padding: 20px;
+  align-self: center;
+  border-radius: 20px;
+  border: rgb(0, 0, 0) 15px;
+}
+
+button:hover{
+  color: rgb(157, 157, 157);
+  background-color: rgba(95, 0, 0, 0.582);
+}
+
+  
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgba(216, 23, 23, 0.701);
+    border-top: 2cm;
+  }
+
+  .link{
+    color: rgb(255, 255, 255);
+  }
